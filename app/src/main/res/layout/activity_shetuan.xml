@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShetuanActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@mipmap/qianlan_bg"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="        西南财经大学学生会(Student Union of SWUFE)是全校学生的群众性组织，是代表广大同学利益的学生自律性组织，它在校党委的领导和校团委的具体指导下开展工作" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/xsh_hz" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/qianl_bg2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="      主席团是学生会在学生代表大会闭会期间的最高决策机构和执行机构，负责对学生会的日常工作进行统筹管理。学生会下设办公室、纪检部、文体部、外联部、国际部、学术部、职业发展部、生活权益部、女生部、学生社团服务中心10个职能部门。各部门设部长/主任一名，副部长/副主任若干名。
+        学生会直属部门介绍
+        办公室：管理办公室日常财务与物资；规范并收发学生会各类文件及通知；保存和管理学生会工作文档；协助主席团制作工作计划，整理会议记录及工作总结。
+        纪检部：以人性化、规范化、制度化为目标，致力于完善团学内部建设，优化人力资源配置。负责团学内部日常积分考核与期末评优，举办提高学生干部工作能力与素养的干部培训，建设便利团学日常工作的微信平台，参与重要会议公证等。
+        文体部：负责组织“舞动西财”舞蹈大赛、高雅艺术进校园、校园文化艺术节、五四文艺汇演、校史剧、团拜会等校级品牌文艺活动；开展“团学杯”篮球赛、羽毛球赛等传统体育竞赛，高位求进，致力于打造西财学子丰富多彩的课余生活，营造青春活跃的校园文化氛围。
+        生活权益部：负责打造校园文化生活，维护学生合法权益，收集并反馈同学们关于校园生活的建议，组织与管理学校勤工俭学岗位，举办“生活空间恳谈会”、“寝室之星”、“二手交易市场”等品牌活动，为西财学子的校园生活保驾护航。
+        学术部：负责举办学术科研活动，服务教育教学工作；本科生科研创新，引领学术风向；好老师年度评选，营造学术氛围。共度“读书季”，迎接“挑战杯”。致力于丈量学习空间，聆听校园心声。
+        职业发展部：负责管理大学生就业创业导航站，维护就业创业服务平台，组织创新创业训练营、承办“创青春”大学生创业大赛以及国家级（省级）创业训练计划项目相关工作等。提升西财青年综合竞争力为目标，以为西财青年梦想保驾护航为宗旨的服务型部门。
+        外联部：负责对外的交流联络工作，以拓宽院、校际交流工作为主题,增进校企合作为工作重点，以建立与企业、其他高校以及校友友好关系为工作目标，为团学各项活动筹集资金，沟通人脉，保障各项活动的顺利开展。
+        国际部：旨在搭建国际沟通平台，开展中外青年交流沙龙，引导外籍学生融入西财校园生活，统筹、推广校级海外交流项目，塑造多元环境，拓展学生国际化视野。同时建立并密切与国际高校联系，协助学校外事部门开展礼宾接待工作。
+        女生部：秉承维护女生权益、关注女生学习和生活的宗旨，为女生的健康服务。管理培训礼仪队，为学校各项活动提供礼仪服务。在女生季推广一系列深受女生欢迎的学术讲座和活动。
+        学生社团服务中心：西南财经大学学生社团服务中心(student association service certre)是校团委指导的学生组织，旨在引导和服务西财社团，活跃西财校园文化。以卓越、热爱、创新、情怀、责任、自由为理念，打造百团大战、草坪音乐节、金色之秋社团文化节、五月社团游园会等校级品牌活动。" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

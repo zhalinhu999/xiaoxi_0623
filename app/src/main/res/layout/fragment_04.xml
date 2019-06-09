@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_01">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/qianl_bg2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="动感的音符在草坪上跳动，青春的朝气在歌声中飞扬。作为社团品牌活动，每年的草坪音乐节都受到全校师生的广泛关注和一致好评，在这场属于音乐的狂欢之夜中，除了可以感受音乐的魅力、体验游戏的乐趣，还可以领略到西财社团人激情的绽放。草坪音乐节加强了校内社团之间以及校内社团与外校社团之间的联系与合作，丰富了同学们的课余生活，展现社团别样的风采，同时也促进了校园文化的蓬勃发展。" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/hd_caopin" />
+    </LinearLayout>
+</FrameLayout>

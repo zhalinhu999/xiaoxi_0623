@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btn_01">#747474</color>
+    <color name="default_stroke_color">#33b5e5</color>
+    <color name="progress_default_circle_color">#80ffffff</color>
+    <color name="sandybrown">#fff4a460</color>
+    <color name="ss_comment_from">#ff999999</color>
+</resources>

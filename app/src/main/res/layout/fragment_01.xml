@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragment_01">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/qianl_bg2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="“百团大战”是西南财经大学一年一度的学生社团集体招新活动。每逢九月，全校思想理论、学术科技、文化艺术、体育健身、公益生活、实践交流等六大类一百余个学生社团在西南财经大学学生社团服务中心的组织下集中设点进行为期两天的招新活动。历届百团大战都得到了全校广大师生尤其是新生的高度关注和积极参与，同学们不仅能在其中欣赏精彩绝伦的表演、参与各式各样的活动，更能体会到西财社团人的蓬勃朝气和满满的青春正能量。" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                android:src="@mipmap/hd_baituan" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="在热火朝天的文化艺术类社团的表演外，排球协会、网球联合会、单车联盟等体育健身类社团也不甘示弱，排球协会的两名同学在展位前颠起了排球，乒乓球协会的展位上挂出了奥运健将张继科和福原爱的展牌，体育健身类社团以饱满的热情向同学介绍丰富多彩的社团活动，同时也展现着西财学子青春活力的一面。学术科技类社团如金融投资协会、金融分析协会等在此次“百团大战”中也十分出色。此外，实践交流类、公益生活类社团也以其精彩的社团活动吸引了不少同学。" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:src="@mipmap/hd_baituan2" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="据统计，本次“百团大战”共计107个社团参与，招新总人数达5000以上，除社团招新活动外，学生社团服务中心也在现场推出了三款与主题相关的活动，分别是“百团我在这”、“百团我在看”和“百团我知晓”，参与者可以将自己的手印按在喷绘上，在“百团大站”中留下属于自己的痕迹。" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="257dp"
+                android:src="@mipmap/hd_baituan3" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="学生社团是同学们依据兴趣爱好自愿组成的学生组织，是校园里一道独特的风景。学校学生社团现有六大类、115个社团活跃在学术、科技、文艺、体育、实践、公益等各个领域，积极组织和参加校内外各类社团活动与交流，涌现了不少在省内、甚至全国都具有一定知名度和影响力的优秀社团。百团大战、草坪音乐节、“金色之秋”社团文化节、“五月诗存”、社团游园会等精品社团活动更是受到同学们的积极参与和广泛好评。近年来，学校启动“社团扬帆计划”，加大力度对学生社团进行规范管理和科学指导，不断扩大活动载体、创新活动形式。通过社团骨干培训班、社团星级评定等方式，进一步加强学生社团的思想引领和业务指导，充分调动社团指导单位和教师的积极性；通过建立社团发展基金、完善社团激励机制等方式，大力打造精品社团和精品活动，引导学生社团健康发展，使学生社团不仅成为我校学子进行自我教育、自我管理、自我服务的有效形式，更成为同学们充分发挥专长特长、激发潜力潜能、提高综合素质的重要平台。" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

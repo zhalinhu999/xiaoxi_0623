@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragment_01">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/qianlan_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                style="@style/item_content"
+                android:text="听音乐之优美天籁，赏舞蹈之青春飞扬，品话剧之百态人生，感竞技之青春热情。“金色之秋”社团文化节闭幕晚会，是一场属于社团人的晚会，一晚属于西财人的盛宴，在“金色之秋”社团文化节落幕之时，不仅是一次对“金色之秋”精品社团活动的表彰仪式，更是一次社团人展现青春活力的机会。形式多样的社团展示让观众领略丰富的社团文化，也激起同学们发展社团事业的热情，为社团事业的发展提供不竭动力。" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/hd_jinse"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="炫动社团风采 绽放青春火花——“金色之秋”社团文化节闭幕晚会顺利举行" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:src="@mipmap/hd_jinse03" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="  为表彰在“金色之秋”社团文化节中的优秀社团活动，展现我校社团风采，活跃我校校园文化活动氛围， 2015年11月28日晚上7:00，西南财经大学“金色之秋”社团文化节闭幕晚会在学生活动中心八百人厅顺利举行。我校团委副书记王偞婷、指导老师代娜出席了本次晚会。近千名师生共同观看了晚会。
+
+  晚会在四川大学逆论乐队演唱的《青春是把上了膛的枪》中拉开序幕。本场晚会首次使用新颖独特的主持模式，以沙画做引，以玩偶为主持，使得现场欢声笑语不断，气氛十分活跃。" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@mipmap/hd_jinse04" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="在本次晚会中，各个社团为大家带来了精彩的表演。轮滑社高超的轮滑技巧和默契的配合、跆拳道社充满力量的踢板、森林音乐社舒缓的乐曲、御礼学塾和不语配音社合作的充满古风韵味的故事、吉他社干净清爽的演奏以及钢琴社极富挑战的钢琴曲《蜂鸟》、军事瞭望社饱含赤诚爱国心和崇高英雄情的《迷彩青春》、心声手语社特别编排的《时间煮雨》以及舞蹈协会热辣充满激情的舞蹈，这些表演展现了西财社团高超的艺术水平和蓬勃的青春活力。" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                android:src="@mipmap/hd_jinse02" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="417dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="随后，王偞婷书记、代娜老师为本次“金色之秋”社团精品活动颁奖。森林音乐社、与田动漫社、金融投资协会获得金奖；舞蹈协会、GLOBAL软件部落和SKC韩语社获银奖；跆拳道协会、棒垒协会、军事瞭望社和乒乓球协会获铜奖。
+
+  颁奖环节结束后，四川农业大学魔术社的魔术达人为大家带来了精彩的魔术表演，引得现场掌声不断。森林音乐社一曲青春气息浓厚、活力四射的《Forever young》将全场的气氛推向高潮。至此，西南财经大学“金色之秋”社团文化节闭幕晚会圆满结束。
+
+  炫动社团的风采，绽放青春的火花。西南财经大学“金色之秋”社团文化节闭幕晚会，在这里，点燃梦想和青春的焰火；在这里，感受热情与奋斗的力量；在这里，碰撞激情与活力的火花。这些精彩的社团活动展现了西财学子积极向上、勇于创新的品格，为西财的校园文化建设添上了一抹绚丽的色彩。
+
+                                                                （编辑/张箫栎  摄影/庞彩琳）" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

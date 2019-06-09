@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_01">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/qianlan_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="携一抹青春亮色，颂一句诗酒年华。作为我校精品活动之一，一年一度的“五月诗存”以诗歌文化为载体，开展诗歌朗诵大赛。五月诗存，是西财学子浅颂岁月，歌吟今朝辉煌的舞台; 是西财学子展现才情，发扬拼搏精神的舞台; 也是西财学子深情投入，迸发青春活力的舞台。在这里，你能看到柳林英才; 在这里，你能品味诗词风雅; 在这里，你能感受社团英姿。五月诗存，让梦从诗歌中起航。" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:src="@mipmap/hd_wuyue" />
+    </LinearLayout>
+</FrameLayout>
