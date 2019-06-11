@@ -67,8 +67,10 @@
         <activity android:name=".BmobDemoActivity" />
         <activity android:name=".RegisActivity" />
         <activity android:name=".Func_First" />
-        <activity android:name=".LostfindActivity">
-        </activity>
+        <activity android:name=".LostfindActivity" />
+        <activity android:name=".CycleActivity" />
+        <activity android:name=".BookActivity" />
+        <activity android:name=".CalendarActivity"></activity>
     </application>
 
 </manifest>

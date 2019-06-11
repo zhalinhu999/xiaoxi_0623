@@ -105,10 +105,10 @@
                 android:text="失物招领" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btn_func05"
+                style="@style/my_itme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/my_itme"
                 android:text="西财Tips" />
 
             <ImageView
@@ -146,17 +146,17 @@
                 android:textSize="20dp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btn_func06"
+                style="@style/my_itme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/my_itme"
                 android:text="二手自行车" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/btn_func07"
+                style="@style/my_itme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/my_itme"
                 android:text="二手书" />
 
             <ImageView

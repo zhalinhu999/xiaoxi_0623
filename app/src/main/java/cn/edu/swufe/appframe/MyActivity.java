@@ -29,7 +29,7 @@ public class MyActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "这是多么惊人的发现啊！", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -90,8 +90,9 @@ public class MyActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
-
+        } else if (id == R.id.nav_calendar) {
+            Intent calen = new Intent(this,CalendarActivity.class);
+            startActivity(calen);
         } else if (id == R.id.nav_send) {
 
         }

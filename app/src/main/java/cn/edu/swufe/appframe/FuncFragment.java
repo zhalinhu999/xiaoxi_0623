@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class FuncFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -26,6 +27,9 @@ public class FuncFragment extends Fragment {
         Button btn_fun02=(Button)getActivity().findViewById(R.id.btn_func02);
         Button btn_fun03=(Button)getActivity().findViewById(R.id.btn_func03);
         Button btn_fun04=(Button)getActivity().findViewById(R.id.btn_func04);
+        Button btn_fun05=(Button)getActivity().findViewById(R.id.btn_func05);
+        Button btn_fun06=(Button)getActivity().findViewById(R.id.btn_func06);
+        Button btn_fun07=(Button)getActivity().findViewById(R.id.btn_func07);
 
         btn_fun01.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +62,29 @@ public class FuncFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),LostfindActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn_fun05.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String http="http://ghy.swufe.edu.cn/";
+                Intent intent = new Intent(getActivity(),Func_First.class);
+                intent.putExtra("http",http);
+                startActivity(intent);
+            }
+        });
+        btn_fun06.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),CycleActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn_fun07.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),BookActivity.class);
                 startActivity(intent);
             }
         });
