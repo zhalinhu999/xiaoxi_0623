@@ -25,3 +25,11 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+allprojects {
+    repositories {
+        jcenter()
+        //Bmob的maven仓库地址--必填(常用)
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+    }
+}

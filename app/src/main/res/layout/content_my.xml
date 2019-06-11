@@ -17,13 +17,43 @@
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/my_itme"
             android:onClick="Login"
             android:text="@string/btnlogin_label" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/my_itme"
+            android:text="篮球计分程序" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            style="@style/my_itme"
+            android:layout_height="wrap_content"
+            android:text="温度转换器" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            style="@style/my_itme"
+            android:layout_height="wrap_content"
+            android:text="利率转换器" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/my_itme"
+            android:text="生日贺卡" />
 
         <Button
             android:id="@+id/btn_regi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnregi_label" />
+            style="@style/my_itme"
+            android:text="利率列表" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

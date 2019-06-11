@@ -33,4 +33,6 @@
     <string name="社团组织" />
     <string name="shetuan_label">社团组织</string>
     <string name="huodong_label">校园活动</string>
+    <string name="userid_label">用户Id</string>
+    <string name="userpwd_label">请输入密码</string>
 </resources>
