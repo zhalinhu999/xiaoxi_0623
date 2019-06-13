@@ -54,6 +54,7 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(LoginActivity.this,bmobUser.getUsername()+"登录成功",Toast.LENGTH_SHORT).show();
                             Intent m = new Intent(LoginActivity.this,MainActivity.class);
                             startActivity(m);
+                            finish();
                         }else {
                             Toast.makeText(LoginActivity.this,"登录失败"+e,Toast.LENGTH_SHORT).show();
                         }
@@ -67,6 +68,7 @@ public class LoginActivity extends AppCompatActivity {
             // 允许用户使用应用
             Intent m = new Intent(this,MainActivity.class);
             startActivity(m);
+            finish();
         }else{
             //缓存用户对象为空时， 可打开用户注册界面…
 //            Intent m = new Intent(this,RegisActivity.class);

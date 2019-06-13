@@ -6,73 +6,56 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/lanbai"
-    tools:context=".RegisActivity">
+    tools:context=".UpdatepwdActivity">
 
-    <EditText
-        android:id="@+id/regis_id"
+
+    <TextView
+        android:id="@+id/textView21"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:hint="请输入id" />
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="密码修改" />
 
     <EditText
-        android:id="@+id/regis_pwd"
+        android:layout_marginTop="20dp"
+        android:id="@+id/up_pwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="请输入密码"
+        android:hint="请输入旧密码"
         android:inputType="textPassword" />
     <EditText
-        android:id="@+id/regis_pwd2"
+        android:id="@+id/up_pwd2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="请再次输入密码"
+        android:hint="请输入新密码"
         android:inputType="textPassword" />
-
-    <EditText
-        android:id="@+id/regis_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:ems="10"
-        android:hint="请输入邮件"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/regis_phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:ems="10"
-        android:hint="请输入电话"
-        android:inputType="phone" />
 
     <Button
-        android:id="@+id/btn_regis"
+        android:id="@+id/btn_up"
         android:background="@drawable/btn_shape"
-        android:textColor="@color/baise"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="100dp"
-        android:text="提交"
+        android:text="提    交"
+        android:textColor="@color/baise"
         android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imageView23"
         android:layout_width="match_parent"
         android:layout_height="194dp"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="130dp"
         app:srcCompat="@mipmap/index7" />
 
 </LinearLayout>

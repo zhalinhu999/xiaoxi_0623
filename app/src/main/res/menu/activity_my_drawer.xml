@@ -29,7 +29,7 @@
                 android:icon="@drawable/to"
                 android:title="查看日历" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_mima"
                 android:icon="@drawable/ic_menu_manage"
                 android:title="修改密码" />
         </menu>

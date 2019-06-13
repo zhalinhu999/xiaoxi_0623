@@ -52,6 +52,7 @@ public class MyFragment extends Fragment {
 
                 Intent intent = new Intent(getActivity().getApplicationContext(),LoginActivity.class);
                 startActivity(intent);
+
             }
         });
 

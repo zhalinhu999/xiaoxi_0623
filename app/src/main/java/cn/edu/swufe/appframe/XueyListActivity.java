@@ -18,7 +18,9 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -29,6 +31,7 @@ public class XueyListActivity extends ListActivity implements Runnable,AdapterVi
     Handler handler;
     private List<HashMap<String,String>>listItems;//存放文字、图片信息
     private SimpleAdapter listItemAdapter;//适配器
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +85,7 @@ public class XueyListActivity extends ListActivity implements Runnable,AdapterVi
     @Override
     public void run() {
         //获取网络数据,带回到list的主线程
+
         List<HashMap<String,String>> retList = new ArrayList<HashMap<String,String>>();
         Document doc = null;
 

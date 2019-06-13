@@ -90,12 +90,13 @@
 
         <Button
             android:id="@+id/login"
-            style="@style/my_itme2"
+            android:background="@drawable/btn_shape"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="登录"
-            android:onClick="onClick"
+            android:textSize="20dp"
+            android:textColor="@color/baise"
             android:textStyle="bold" />
 
         <Space
@@ -108,9 +109,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            style="@style/my_itme2"
             android:text="注册"
-            android:onClick="onClick"
+            android:background="@drawable/btn_shape"
+            android:textSize="20dp"
+            android:textColor="@color/baise"
             android:textStyle="bold" />
 
         <Space
