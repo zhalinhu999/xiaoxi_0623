@@ -167,7 +167,7 @@ public class MyActivity extends AppCompatActivity
             float z = values[2];
             Log.i(TAG,"x[" + x + "]y[" + y + "]z[" + z + "]");
 
-            int medumValue = 16;
+            int medumValue = 14;
             if(Math.abs(x) > medumValue || Math.abs(y) > medumValue || Math.abs(z) > medumValue){
                 vibrator.vibrate(200);
                 Message msg = new Message();
