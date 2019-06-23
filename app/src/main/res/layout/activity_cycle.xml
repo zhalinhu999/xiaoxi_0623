@@ -8,132 +8,185 @@
     android:background="#CCEE"
     tools:context=".CycleActivity">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_margin="10dp"
-        app:cardCornerRadius="8dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-            <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="158dp"
-                android:layout_height="match_parent"
-                app:srcCompat="@mipmap/cycle01" />
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@mipmap/lanbai"
-                android:orientation="vertical">
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp">
 
-                <TextView
-                    android:layout_width="193dp"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:gravity="center"
-                    android:textSize="20dp"
-                    android:text="01 二手山地自行车" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="193dp"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="这是一辆非常好的山地自行车，西南财经大学柳林校区，现价200元。QQ:1715835849" />
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="158dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/cycle01" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@mipmap/lanbai"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="01 二手山地自行车"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="这是一辆非常好的山地自行车，西南财经大学柳林校区，现价200元。QQ:1715835849" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="153dp"
+                        android:layout_height="154dp"
+                        app:srcCompat="@mipmap/cycle02" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@mipmap/qianl_bg2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="02 黄黑配色自行车"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="瞧瞧这优雅的配色，才骑了大半年，现价180元，需要的伙伴加我。QQ：185791944" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="159dp"
+                        android:layout_height="154dp"
+                        app:srcCompat="@mipmap/cycle04" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@mipmap/qianlv03"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="03 小巧女款自行车"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="高端、轻巧、崭新。因为要出国留学带不走，所以低价出售。150元。需要的联系QQ：1531778650" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/qianl_bg5"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/cycle_imag"
+                        android:layout_width="159dp"
+                        android:layout_height="154dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cyc_title"
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/cyc_detail"
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
-
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:id="@+id/cardView2"
-        android:layout_margin="10dp"
-        app:cardCornerRadius="8dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="153dp"
-                android:layout_height="154dp"
-                app:srcCompat="@mipmap/cycle02" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@mipmap/qianl_bg2"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="193dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:padding="5dp"
-                    android:text="02 黄黑配色自行车"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="193dp"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="瞧瞧这优雅的配色，才骑了大半年，现价180元，需要的伙伴加我。QQ：185791944" />
-            </LinearLayout>
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardView3"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_margin="10dp"
-        app:cardCornerRadius="8dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="159dp"
-                android:layout_height="154dp"
-                app:srcCompat="@mipmap/cycle04" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@mipmap/qianlv03"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="193dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:padding="5dp"
-                    android:text="03 小巧女款自行车"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="193dp"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="高端、轻巧、崭新。因为要出国留学带不走，所以低价出售。150元。需要的联系QQ：1531778650" />
-            </LinearLayout>
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
+    </ScrollView>
 
 
 </LinearLayout>

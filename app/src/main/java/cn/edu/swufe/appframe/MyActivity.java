@@ -120,9 +120,11 @@ public class MyActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
-
+            Intent upload = new Intent(this,UploadActivity.class);
+            startActivity(upload);
         } else if (id == R.id.nav_manage) {
-
+            Intent upload = new Intent(this,UploadActivity.class);
+            startActivity(upload);
         } else if (id == R.id.nav_calendar) {
             Intent calen = new Intent(this,CalendarActivity.class);
             startActivity(calen);
@@ -167,7 +169,7 @@ public class MyActivity extends AppCompatActivity
             float z = values[2];
             Log.i(TAG,"x[" + x + "]y[" + y + "]z[" + z + "]");
 
-            int medumValue = 14;
+            int medumValue = 18;
             if(Math.abs(x) > medumValue || Math.abs(y) > medumValue || Math.abs(z) > medumValue){
                 vibrator.vibrate(200);
                 Message msg = new Message();

@@ -99,14 +99,14 @@
 
             <Button
                 android:id="@+id/btn_func04"
-                style="@style/my_itme"
+                style="@style/my_itme3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="失物招领" />
 
             <Button
                 android:id="@+id/btn_func05"
-                style="@style/my_itme"
+                style="@style/my_itme3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="西财Tips" />
@@ -147,14 +147,14 @@
 
             <Button
                 android:id="@+id/btn_func06"
-                style="@style/my_itme"
+                style="@style/my_itme3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="二手自行车" />
 
             <Button
                 android:id="@+id/btn_func07"
-                style="@style/my_itme"
+                style="@style/my_itme3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="二手书" />

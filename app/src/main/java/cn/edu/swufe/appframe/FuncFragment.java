@@ -78,6 +78,11 @@ public class FuncFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),CycleActivity.class);
+                String title2 = "";
+                String detail2 = "";
+
+                intent.putExtra("title",title2);
+                intent.putExtra("detail",detail2);
                 startActivity(intent);
             }
         });
@@ -85,6 +90,10 @@ public class FuncFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),BookActivity.class);
+                String title2 = "";
+                String detail2 = "";
+                intent.putExtra("title",title2);
+                intent.putExtra("detail",detail2);
                 startActivity(intent);
             }
         });
